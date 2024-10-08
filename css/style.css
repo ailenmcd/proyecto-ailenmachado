@@ -1,0 +1,191 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+    background-color:rgb(65, 64, 64);
+}
+
+h2{
+    color: orange;
+  font-size: 30px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+   }
+  h3{
+    color: orange;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h4{
+    color: orange;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h5{
+    color: orange;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h1 {
+    color: orange;
+    font-size:  50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+   }
+   span{
+    color: white;
+   }
+   a{
+    margin: 10%;
+    text-align: center;
+    color: rgb(35, 19, 35);
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   p{
+    text-align: center;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   .titulo-azul{
+    color: black;
+    background-color: blueviolet;
+   }
+   #section-contactos {
+    color: blue;
+   }
+.flex-container{
+  gap:20px;
+  display: flex;
+  padding: 1,5rem;
+  margin: 5px;
+  justify-content: space-around;
+  
+
+}
+  .populares-mascotas{
+  color: white;  
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration:overline;
+  text-align: center;
+background-color:orange;
+}
+
+.titulo-2{
+  color:orange;
+}
+.zona-enlaces:hover {
+  background-color: orange;
+  color:orange;
+  transition: 2s;
+
+}
+.zona-enlaces{
+  text-align: center;
+}
+.gato-a:hover{
+  background-color: orange;
+
+  text-align: center;
+  transition: 2s;
+  margin-top: 2rem;
+  width: 50%;
+  
+  }
+  .perro-a:hover{
+    background-color: orange;
+  
+    text-align: center;
+  
+    transition: 2s;
+    margin-top: 2rem;
+    }
+    .tortuga-a:hover{
+      background-color: orange;
+    
+      text-align: center;
+      transition: 2s;
+      width: 50%;
+      margin-top: 2rem;
+      
+      }
+
+      .conejo-a:hover{
+        background-color: orange;
+      
+        text-align: center;
+        transition: 2s;
+        width: 50%;
+        margin-top: 2rem;
+        
+        }
+        .loro-a:hover{
+          background-color: orange;
+        
+          text-align: center;
+        transition: 2s;
+      width: 50%;
+      margin-top: 2rem;
+        
+          
+          }
+
+          .flex-container{
+            background-color:rgb(65, 64, 64);
+           
+          }
+      
+        .grid-area-container{
+          border:2px solid orange;
+          margin: 25px;
+          display:grid;
+          gap:15px;
+          grid-template-columns: repeat(3,1fr);
+          grid-template-rows: repeat(5,1fr);
+          grid-template-areas: 
+          "item-1 item-2 item-3"
+            "item-1 item-2 item-3"
+              "item-1 item-2 item-3"
+                "item-1 item-2 item-3"
+                "item-1 item-2 item-3"
+          ;
+        }
+       
+     
+        .grid-item-1{
+          background-color: orange;
+          grid-area: item-1;
+          color:black;
+          text-align: center;
+          margin: 5px;
+          font-weight:10%;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .grid-item-2{
+          background-color: orange;
+          grid-area: item-2;
+          text-align: center;
+          margin: 5px;
+          font-weight:10%;
+          color:black;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        
+        .grid-item-3{
+          background-color: orange;
+          grid-area:item-3;
+          color:black;
+          margin: 5px;
+          text-align: center;
+          border-bottom: 5px;
+          font-weight:10%;
+          font-family: Arial, Helvetica, sans-serif;
+        }
